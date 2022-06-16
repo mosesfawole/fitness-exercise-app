@@ -10,8 +10,9 @@ const ExerciseCard = ({ exercise }) => {
         <Button
           sx={{
             ml: "21px",
-            color: "#fff",
+            color: "#000",
             background: "#ffa9a9",
+            fontWeight: "bold",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",
@@ -22,7 +23,8 @@ const ExerciseCard = ({ exercise }) => {
         <Button
           sx={{
             ml: "21px",
-            color: "#fff",
+            color: "#000",
+            fontWeight: "bold",
             background: "#fcc757",
             fontSize: "14px",
             borderRadius: "20px",
