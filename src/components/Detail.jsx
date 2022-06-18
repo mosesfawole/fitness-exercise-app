@@ -5,7 +5,7 @@ import TargetImage from "../assets/icons/target.png";
 import EquipmentImage from "../assets/icons/equipment.png";
 
 const Detail = ({ exerciseDetail }) => {
-  const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail;
+  const { gifUrl, name, target } = exerciseDetail;
 
   const extraDetail = [
     { icon: BodyPartImage, name: " bodyPart" },
@@ -22,10 +22,10 @@ const Detail = ({ exerciseDetail }) => {
         <Typography variant="h6" fontWeight={"bold"}>
           {name}
         </Typography>
-        <Typography>
-          Exercises keep you strong . variant='h6' {name} is one of the best
-          exercises to target your {target}. It will help you improve your mood
-          and gain energy
+        <Typography variant="h6">
+          Exercises keep you strong . {name} is one of the best exercises to
+          target your {target}. It will help you improve your mood and gain
+          energy
         </Typography>
         {extraDetail.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">

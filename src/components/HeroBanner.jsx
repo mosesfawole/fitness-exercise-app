@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Stack, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import HeroBannerImage from "../assets/images/banner.png";
 const HeroBanner = () => {
   return (
@@ -28,7 +28,7 @@ const HeroBanner = () => {
       <Button
         variant="contained"
         color="error"
-        href="#"
+        href="#exercises"
         sx={{ backgroundColor: "#ff2625", padding: "10px" }}
       >
         Explore Exercises
